@@ -1,5 +1,5 @@
 .travel__subtitle {
-  max-width: 640px;
+  white-space: pre-line;
   margin: 0 auto;
   text-align: center;
   color: #fff;
@@ -21,11 +21,8 @@
 }
 @media screen and (max-width: 768px) {
   .travel__subtitle {
+    padding-top: calc(16px + 16 * ((100vw - 320px) / (768 - 320)));
     padding-bottom: calc(40px + 16 * ((100vw - 320px) / (768 - 320)));
-  }
-}
-@media screen and (max-width: 768px) {
-  .travel__subtitle {
     font-size: calc(16px + (14 + 14 * 0.7) * ((100vw - 320px) / 768));
   }
 }

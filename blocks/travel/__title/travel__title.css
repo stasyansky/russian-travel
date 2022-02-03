@@ -1,5 +1,5 @@
 .travel__title {
-  max-width: 720px;
+  white-space: pre-line;
   margin: 0 auto;
   text-align: center;
   color: #fff;

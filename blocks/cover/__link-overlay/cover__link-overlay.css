@@ -6,6 +6,7 @@
   right:0;
   opacity: .3;
   background: #2a2c2f;
+  transition: opacity .3s ease-in-out;
 }
 .cover__link-overlay:hover {
   opacity: .8;
