@@ -1,0 +1,13 @@
+.places {
+  padding-top: 92px;
+}
+@media screen and (max-width: 1024px) {
+  .places {
+    padding-top: calc(88px + 4 * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+@media screen and (max-width: 768px) {
+  .places {
+    padding-top: calc(64px + 24 * ((100vw - 320px) / (768 - 320)));
+  }
+}

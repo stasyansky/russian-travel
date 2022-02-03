@@ -1,0 +1,14 @@
+.footer {
+  padding: 90px 0 24px;
+  color: #fff;
+}
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding-top: calc(88px + 4 * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-top: calc(64px + 24 * ((100vw - 320px) / (768 - 320)));
+  }
+}

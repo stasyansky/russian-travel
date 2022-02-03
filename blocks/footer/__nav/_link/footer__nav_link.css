@@ -1,0 +1,20 @@
+.footer__nav_link {
+  color: inherit;
+  margin-right: 18px;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: opacity .3s linear;
+}
+.footer__nav_link:last-child {
+  margin-right: 0;
+}
+.footer__nav_link:hover {
+  opacity: .7;
+}
+@media screen and (max-width: 517px) {
+  .footer__nav_link {
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+}

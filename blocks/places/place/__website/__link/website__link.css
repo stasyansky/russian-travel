@@ -1,0 +1,21 @@
+.website__link {
+  color: inherit;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  transition: opacity .3s linear;
+}
+.website__link::before {
+  content: "URL";
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #aaa;
+  display: block;
+  margin-bottom: 12px;
+  text-decoration: underline;
+}
+.website__link:hover {
+  cursor: pointer;
+  opacity: .7;
+}

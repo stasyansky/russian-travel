@@ -1,0 +1,13 @@
+.cover__link-overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  opacity: .3;
+  background: #2a2c2f;
+}
+.cover__link-overlay:hover {
+  opacity: .8;
+  cursor: pointer;
+}

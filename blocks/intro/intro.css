@@ -1,0 +1,8 @@
+.intro {
+  padding: 92px 0;
+}
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: calc(88px + 4 * ((100vw - 768px) / (1024 - 768))) 0;
+  }
+}

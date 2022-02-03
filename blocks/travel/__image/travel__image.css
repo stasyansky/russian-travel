@@ -1,0 +1,5 @@
+.travel__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

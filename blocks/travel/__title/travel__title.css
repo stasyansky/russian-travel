@@ -1,0 +1,13 @@
+.travel__title {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  font-size: 96px;
+  font-weight: 900;
+}
+@media screen and (max-width: 768px) {
+  .travel__title {
+    font-size: calc(40px + (56 + 56 * 0.7) * ((100vw - 320px) / 768));
+  }
+}

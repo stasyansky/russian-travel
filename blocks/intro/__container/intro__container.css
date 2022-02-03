@@ -1,0 +1,23 @@
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 690px;
+  color: #fff;
+  margin-left: 7.4em;
+  overflow: hidden;
+}
+@media screen and (max-width: 1280px) {
+  .intro__container {
+    margin-left: calc(48px + 100 * ((100vw - 1024px) / (1280 - 1024)));
+  }
+}
+@media screen and (max-width: 1024px) {
+  .intro__container {
+    margin-left: calc(24px + 24 * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro__container {
+    margin: 0 calc(16px + 8 * ((100vw - 320px) / (768 - 320)));
+  }
+}

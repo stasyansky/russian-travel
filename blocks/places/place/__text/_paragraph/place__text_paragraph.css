@@ -1,0 +1,15 @@
+.place__text_paragraph {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 26px;
+}
+.mb_0 {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 1024px) {
+  .place__text_paragraph {
+    font-size: calc(16px + (2 + 2 * 2.9) * ((100vw - 768px) / 1024));
+  }
+}
