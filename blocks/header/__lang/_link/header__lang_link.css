@@ -1,4 +1,4 @@
-.lang__link {
+.header__lang_link {
   margin: 0;
   margin-right: 18px;
   font-size: 24px;
@@ -7,16 +7,16 @@
   color: #fff;
   transition: opacity .3s linear;
 }
-.mr_0 {
+.header__lang_link:last-child {
   margin-right: 0;
 }
-.lang__link:hover {
+.header__lang_link:hover {
   text-decoration: underline;
   cursor: default;
   opacity: .7;
 }
 @media screen and (max-width: 768px) {
-  .lang__link {
+  .header__lang_link {
     font-size: calc(18px + (6 + 6 * 0.7) * ((100vw - 320px) / 768));
   }
 }

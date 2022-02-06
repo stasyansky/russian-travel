@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  padding-top: 13px;
+  padding-top: 9px;
 }
 @media screen and (max-width: 768px) {
   .header__lang {
-    padding-top: calc(9px + 4 * ((100vw - 320px) / (768 - 320)));
+    padding-top: calc(5px + 4 * ((100vw - 320px) / (768 - 320)));
   }
 }

@@ -3,27 +3,34 @@
   grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
   justify-content: center;
   margin: 0 48px;
-  gap: 16px;
+  gap: 11px 16px;
   list-style: none;
   padding: 0;
 }
 @media screen and (max-width: 1024px) {
   .photo-grid__items {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 14px;
+    gap: 9px 14px;
   }
 }
 @media screen and (max-width: 768px) {
   .photo-grid__items {
     grid-template-columns: repeat(auto-fill, minmax(352px, 1fr));
-    gap: 16px;
+    gap: 11px 16px;
     margin: 0 24px;
   }
 }
 @media screen and (max-width: 517px) {
   .photo-grid__items {
     grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
-    gap: 12px;
+    gap: 7px;
+    margin: 0 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .photo-grid__items {
+    grid-template-columns: repeat(auto-fill, 1fr);
+    gap: 7.5px;
     margin: 0 16px;
   }
 }

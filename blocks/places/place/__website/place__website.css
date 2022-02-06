@@ -4,3 +4,13 @@
   justify-content: flex-end;
   place-items: start;
 }
+@media screen and (max-width: 768px) {
+  .place__website {
+    margin-bottom: 6px;
+  }
+}
+  @media screen and (max-width: 320px) {
+    .place__website {
+      margin-bottom: 0;
+    }
+}

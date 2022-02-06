@@ -1,0 +1,27 @@
+.text_paragraph {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 26px;
+}
+@media screen and (max-width: 1024px) {
+  .text_paragraph {
+    font-size: calc(16px + (2 + 2 * 2.9) * ((100vw - 768px) / 1024));
+    margin-bottom: 28px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .text_paragraph {
+    margin: 3px 0 23px;
+    line-height: 1.62;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .text_paragraph {
+    font-size: 16px;
+    margin: 0 10px 25px 15px;
+  }
+}
+

@@ -6,7 +6,12 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -52%);
   pointer-events: none;
   width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .over__desc {
+    padding-top: 3px;
+  }
 }

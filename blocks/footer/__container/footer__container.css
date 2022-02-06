@@ -22,3 +22,8 @@
     margin: 0 calc(16px + 2.5 * ((100vw - 320px) / (710 - 320)));
   }
 }
+@media screen and (max-width: 320px) {
+  .footer__container {
+    padding-bottom: 10px;
+  }
+}
