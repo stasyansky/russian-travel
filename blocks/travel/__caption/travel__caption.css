@@ -1,4 +1,4 @@
-.wrapper__caption {
+.travel__caption {
   margin: 5px 0 0;
   font-size: 10px;
   font-weight: 400;
@@ -7,17 +7,17 @@
   color: #fff;
 }
 @media screen and (max-width: 768px) {
-  .wrapper__caption {
+  .travel__caption {
     margin-left: calc(15px + 8 * ((100vw - 320px) / (768 - 320)));
   }
 }
 @media screen and (max-width: 768px) {
-  .wrapper__caption {
+  .travel__caption {
     margin-top: 7px;
   }
 }
 @media screen and (max-width: 320px) {
-  .wrapper__caption {
+  .travel__caption {
     margin-top: 5px;
   }
 }

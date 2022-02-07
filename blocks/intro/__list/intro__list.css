@@ -1,15 +1,15 @@
-.container__list {
+.intro__list {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 @media screen and (max-width: 1024px) {
-  .container__list {
+  .intro__list {
     margin-top: 2px;
   }
 }
 @media screen and (max-width: 768px) {
-  .container__list {
+  .intro__list {
     margin-top: 1px;
   }
 }
