@@ -14,7 +14,7 @@
   .place__title {
     margin-top: 5px;
     font-size: calc(32px + (10 + 10 * 0.7) * ((100vw - 320px) / 768));
-    padding-right: 11px;;
+    padding-right: 11px;
   }
 }
 @media screen and (max-width: 320px) {
