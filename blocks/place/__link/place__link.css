@@ -5,27 +5,10 @@
   font-weight: 400;
   transition: opacity .3s linear;
   max-width: 220px;
-  margin-bottom: -2px;
-}
-.place__link::before {
-  content: "URL";
-  min-width: 180px;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  color: #aaa;
-  display: inline-block;
-  margin-bottom: 12px;
-  text-decoration: none;
 }
 .place__link:hover {
   cursor: pointer;
-  opacity: .7;
-}
-@media screen and (max-width: 768px) {
-  .place__link::before {
-    margin-bottom: 15px;
-  }
+  opacity: .8;
 }
 @media screen and (max-width: 320px) {
   .place__link {

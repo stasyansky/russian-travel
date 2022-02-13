@@ -1,11 +1,11 @@
 .header__lang {
   display: flex;
   align-items: center;
-  box-sizing: border-box;
-  padding-top: 9px;
+  padding: 8px 0 0 0;
+  list-style-type: none;
 }
 @media screen and (max-width: 768px) {
   .header__lang {
-    padding-top: calc(5px + 4 * ((100vw - 320px) / (768 - 320)));
+    padding-top: calc(4px + 4 * ((100vw - 320px) / (768 - 320)));
   }
 }

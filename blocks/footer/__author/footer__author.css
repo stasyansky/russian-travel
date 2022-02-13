@@ -9,3 +9,8 @@
     margin-top: 5px;
   }
 }
+@media screen and (max-width: 320px) {
+  .footer__author {
+    margin-top: 15px;
+  }
+}

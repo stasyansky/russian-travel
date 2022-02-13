@@ -3,15 +3,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -52%);
   pointer-events: none;
   width: 100%;
+  z-index: 2;
 }
 @media screen and (max-width: 768px) {
-  .over__desc {
+  .cover__desc {
     padding-top: 3px;
   }
 }

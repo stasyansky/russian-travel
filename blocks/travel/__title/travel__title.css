@@ -1,14 +1,19 @@
 .travel__title {
-  white-space: pre-line;
+  max-width: 720px;
   margin: 0 auto;
   text-align: center;
   color: #fff;
   font-size: 96px;
   font-weight: 900;
-  line-height: 1.1;
+  line-height: 1.04;
 }
 @media screen and (max-width: 768px) {
   .travel__title {
     font-size: calc(40px + (56 + 56 * 0.72) * ((100vw - 320px) / 768));
+  }
+}
+@media screen and (max-width: 320px) {
+  .travel__title {
+    line-height: 1.1;
   }
 }

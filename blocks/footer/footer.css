@@ -1,19 +1,20 @@
 .footer {
-  padding: 83px 0 24px;
+  padding: 81px 0 25px;
   color: #fff;
 }
 @media screen and (max-width: 1024px) {
   .footer {
-    padding-top: calc(76px + 8 * ((100vw - 768px) / (1024 - 768)));
+    padding-top: calc(76px + 14 * ((100vw - 768px) / (1024 - 768)));
   }
 }
 @media screen and (max-width: 768px) {
   .footer {
-    padding-top: calc(64px + 6 * ((100vw - 320px) / (768 - 320)));
+    padding-top: calc(58px + 27 * ((100vw - 320px) / (768 - 320)));
+    padding-bottom: calc(14px + 9 * ((100vw - 320px) / (768 - 320)));
   }
 }
 @media screen and (max-width: 320px) {
   .footer {
-    padding: 58px 0 14px;
+    padding: 61px 0 14px;
   }
 }

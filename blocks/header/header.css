@@ -2,28 +2,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 28px 48px 46px;
+  padding: 19px 48px 43px;
 }
 @media screen and (max-width: 1280px) {
   .header {
-    padding-bottom: calc(38px + 8 * ((100vw - 1024px) / (1280 - 1024)));
+    padding-bottom: calc(38px + 5 * ((100vw - 1024px) / (1280 - 1024)));
   }
 }
 @media screen and (max-width: 1024px) {
   .header {
-    padding: 28px calc(24px + 24 * ((100vw - 768px) / (1024 - 768)));
-    padding-bottom: 40px;
+    padding: 18px calc(24px + 24 * ((100vw - 768px) / (1024 - 768)));
+    padding-bottom: 35px;
   }
 }
 @media screen and (max-width: 768px) {
   .header {
-    padding-top: calc(16px + 12 * ((100vw - 320px) / (768 - 320)));
+    padding-top: calc(5px + 14 * ((100vw - 320px) / (768 - 320)));
     padding-left: calc(16px + 9 * ((100vw - 320px) / (768 - 320)));
     padding-right: calc(16px + 9 * ((100vw - 320px) / (768 - 320)));
+    padding-bottom: 34px;
   }
 }
 @media screen and (max-width: 320px) {
   .header {
-    padding: 14px 16px 45px;
+    padding: 4px 16px 34px;
   }
 }
