@@ -38,24 +38,28 @@
     margin-bottom: calc(45px + 48 * ((100vw - 320px) / (768 - 320)));
   }
 }
-@media screen and (max-width: 517px) {
-  .place {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 32px;
-  }
-  .place:nth-last-child(2) {
-    margin-bottom: 49px;
-  }
-}
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 601px) {
   .place {
     grid-template-columns: 1fr;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .place:nth-last-child(2) {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 517px) {
+  .place {
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 @media screen and (max-width: 320px) {
   .place {
     gap: 32px;
     margin-bottom: 49px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .place:last-child {
     margin-bottom: 39px;

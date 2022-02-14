@@ -17,6 +17,7 @@
 }
 @media screen and (max-width: 768px) {
   .intro__container {
+    width: auto;
     margin: 0 calc(16px + 8 * ((100vw - 320px) / (768 - 320)));
   }
 }

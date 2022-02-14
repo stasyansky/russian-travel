@@ -15,6 +15,6 @@
   .cover__subtitle {
     width: calc(288px + 70 * ((100vw - 320px) / (768 - 320)));
     font-size: calc(14px + (4 + 4 * 0.73) * ((100vw - 320px) / 768));
-    margin-top: calc(18px + 19 * ((100vw - 320px) / (768 - 320)));
+    margin-top: calc(19px + 18 * ((100vw - 320px) / (768 - 320)));
   }
 }
