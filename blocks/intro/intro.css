@@ -8,12 +8,12 @@
 }
 @media screen and (max-width: 768px) {
   .intro {
-    padding-top: calc(64px + 22 * ((100vw - 320px) / (768 - 320)));
+    padding-top: calc(64px + 23 * ((100vw - 320px) / (768 - 320)));
     padding-bottom: calc(83px + 5 * ((100vw - 320px) / (768 - 320)));
   }
 }
 @media screen and (max-width: 320px) {
   .intro {
-    padding: 64px 0 64px;
+    padding: 64px 0 65px;
   }
 }

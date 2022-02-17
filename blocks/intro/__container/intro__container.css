@@ -3,7 +3,7 @@
   flex-direction: column;
   max-width: 690px;
   color: #fff;
-  margin-left: 7.4em;
+  margin-left: 148px;
 }
 @media screen and (max-width: 1280px) {
   .intro__container {
@@ -17,7 +17,7 @@
 }
 @media screen and (max-width: 768px) {
   .intro__container {
-    width: auto;
+    max-width: 720px;
     margin: 0 calc(16px + 8 * ((100vw - 320px) / (768 - 320)));
   }
 }
